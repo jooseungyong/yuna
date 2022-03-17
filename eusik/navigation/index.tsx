@@ -66,9 +66,9 @@ function BottomTabNavigator() {
         name="TabOne"
         component={TabOneScreen}
         options={({ navigation }: RootTabScreenProps<'TabOne'>) => ({
-          title: 'Tab One',
+          title: '이유식',
           tabBarIcon: ({ color }) => <TabBarIcon name="code" color={color} />,
-          headerRight: () => (
+          /*headerRight: () => (
             <Pressable
               onPress={() => navigation.navigate('Modal')}
               style={({ pressed }) => ({
@@ -81,7 +81,7 @@ function BottomTabNavigator() {
                 style={{ marginRight: 15 }}
               />
             </Pressable>
-          ),
+          ),*/
         })}
       />
       <BottomTab.Screen
