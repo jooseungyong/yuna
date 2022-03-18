@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "eusik",
+    "name": "이유식",
     "slug": "eusik",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -25,7 +25,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.jooseungyong.eusik"
     },
     "web": {
       "favicon": "./assets/images/favicon.png"
